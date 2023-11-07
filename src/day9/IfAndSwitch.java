@@ -1,5 +1,7 @@
 package day9;
 
+import java.util.Scanner;
+
 public class IfAndSwitch {
     public static void main(String[] args) {
 
@@ -16,10 +18,9 @@ public class IfAndSwitch {
 
                 Solution1: Use ternary. Do not use more than one println()
                 Solution2: Use switch statement. Do not use more than one println()
-
          */
 
-       int number = 75;
+      int number = 50;
 
        if (number == 50 || number == 75 || number == 100) {
 

@@ -21,5 +21,7 @@ public class ScannerIntro3 {
 
         System.out.println("You have entered " + answer);
         System.out.println("You entered " + answer2);
+
+        input.close();
     }
 }

@@ -17,22 +17,19 @@ public class WhileEligible {
             System.err.println("Enter a valid age:");
             age = input.nextInt();
         }
-        System.out.println("Eligible");
 
+        System.out.println("Are you Usa citizen? ( Yes/No)");
+        String yesOrno = input.next().toLowerCase() ;
 
-        System.out.println("Are you Usa citizen?");
-String yesOrno = input.next().toLowerCase() ;
-
-while (! ( yesOrno.equals("yes") || yesOrno.equals("no") )) {
-    System.err.println("Invalid entry, Please re-enter:");
-    yesOrno = input.next().toLowerCase();
+        while (! ( yesOrno.equals("yes") || yesOrno.equals("no") )) {
+        System.err.println("Invalid entry, Please re-enter:");
+        yesOrno = input.next().toLowerCase();
         }
-if (yesOrno == "yes") {
-    System.out.println("Eligible");
-} else {
-    System.out.println("Not Eligible");
+        if (age < 21 && yesOrno.equals("yes")) {
+        System.out.println("Eligible");
+     } else {
+        System.out.println("Not Eligible");
 }
-
 
     }
 }

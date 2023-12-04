@@ -21,7 +21,7 @@ public class Calculator {
             opp = input.next().charAt(0) ;
         }
 
-        if (opp == '=') {
+        if (opp == '+') {
             System.out.println((int) ( num1 + num2 ) );
         } else if (opp == '-') {
             System.out.println((int) ( num1 - num2 ) );

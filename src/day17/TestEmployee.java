@@ -11,6 +11,8 @@ public class TestEmployee {
         emp2.setInfo("Haci", 34 , 'F' , "Noop" , 3000, "A1050");
 
 
+        emp2.age = 23;
+
         System.out.println(emp1);
         System.out.println(emp2);
 

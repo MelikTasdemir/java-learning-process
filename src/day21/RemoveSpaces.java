@@ -1,6 +1,5 @@
 package day21;
 
-import day16.FrequSnt;
 
 import java.util.Arrays;
 

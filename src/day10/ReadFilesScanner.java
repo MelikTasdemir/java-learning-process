@@ -19,4 +19,5 @@ Scanner scan = new Scanner(Path.of("src/day10/Test.txt"));
 
 
     }
+
 }
